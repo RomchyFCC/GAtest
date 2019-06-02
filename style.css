@@ -1,0 +1,21 @@
+body {
+  background: lightblue;
+}
+.secondary {
+  color: #666;
+}
+.hide {
+  display: none;
+}
+#emailError,
+#checkError {
+  color: red;
+}
+.table {
+  background: lightgray;
+  border-collapse: collapse;
+}
+.table td {
+  border: 1px solid blue;
+  padding: 5px;
+}

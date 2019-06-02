@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89107214-14"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89107214-14');
+    </script>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="google-signin-client_id" content="476612985354-rm4aj1dmhje2omvsb47u5audrbkcfp6a.apps.googleusercontent.com">
+    <meta name="google-signin-scope" content="https://www.googleapis.com/auth/analytics.readonly">
+  </head>
+  <body>
+    <!-- The Sign-in button. This will run `queryReports()` on success. -->
+    <p class="g-signin2 hide" data-onsuccess="queryAll"></p>
+    <p>Stats</p>
+    <a href="./index.html">Nazaj</a>
+    <br><br>
+    <div id="table1">
+      <p>Page views</p>
+    </div>
+    <br><br>
+    <div id="table2">
+      <p>Goals</p>
+    </div>
+    <br><br>
+    <div id="table3">
+      <p>Events</p>
+    </div>
+    <br><br>
+    <script src="./script-stats.js"></script>
+
+    <!-- Load the JavaScript API client and Sign-in library. -->
+    <script src="https://apis.google.com/js/client:platform.js"></script>
+  </body>
+</html>
