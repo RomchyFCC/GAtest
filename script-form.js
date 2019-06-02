@@ -1,6 +1,4 @@
 var submitForm = document.getElementById('form');
-var dataName = document.getElementById('name');
-var dataLastName = document.getElementById('lastName');
 var dataEmail = document.getElementById('email');
 var dataCheck = document.getElementById('checkbox');
 var dataEmailError = document.getElementById('emailError');

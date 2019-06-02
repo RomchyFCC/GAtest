@@ -1,5 +1,6 @@
 var VIEW_ID = '196045393';
 
+// function that queries all API calls
 function queryAll() {
   queryReports();
   queryReports2();
